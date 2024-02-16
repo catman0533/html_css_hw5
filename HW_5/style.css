@@ -1,0 +1,173 @@
+* {
+    font-family: Arimo, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: none;
+  }
+  
+  .center {
+    padding-left: calc(50% - 512px);
+    padding-right: calc(50% - 512px);
+  }
+  
+  /* header */
+  .heading__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading__logo {
+    display: flex;
+    align-items: center;
+  }
+  .heading_logo_text {
+    color: rgb(242, 88, 34);
+  }
+  
+  .menu__links {
+    display: flex;
+  }
+  
+  .text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px;
+  }
+  .text1 {
+    color: rgb(242, 88, 34);
+  }
+  
+  /* Контент */
+  .content__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .content__text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SEO_text {
+    font-size: 60px;
+    line-height: 69px;
+  }
+  .description_text {
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    line-height: 23px;
+    padding-block: 20px;
+  }
+  .content__buttons {
+    display: flex;
+    align-content: center;
+  }
+  
+  .content_button {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 3;
+    width: 140px;
+  }
+  
+  .content_button_left {
+    border-radius: 50px;
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+  }
+  .content_button_left:hover {
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  }
+  
+  .content_button_right {
+    color: rgb(170, 170, 170);
+    background: rgb(255, 255, 255);
+  }
+  
+  /* Логотипы */
+  .logo__panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 6%;
+  
+    background: rgb(255, 255, 255);
+  }
+  .logo_img {
+    max-width: 10%;
+    margin-block: 50px;
+  }
+  
+  /* Стикеры */
+  
+  .stickers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-block: 90px;
+  }
+  
+  .button_sticker {
+    border-radius: 20px;
+    text-align: left;
+    background: rgb(255, 255, 255);
+  }
+  .button_sticker:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  }
+  
+  .img_sticker,
+  .sticker_text1,
+  .sticker_text2,
+  .sticker_text3 {
+    margin: 10px;
+  }
+  
+  .img_sticker {
+    max-width: 60px;
+  }
+  
+  .sticker_text1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .sticker_text2 {
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  .sticker_text3 {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  /* Описание услуг */
+  .vertical_block {
+    text-align: center;
+  }
+  
+  /* Стикеры_сервис */
+  .service__sticker {
+    text-align: center;
+    background: rgb(255, 255, 255);
+  }
